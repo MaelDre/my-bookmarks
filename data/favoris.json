@@ -1,50 +1,50 @@
 [
   {
     "url": "https://foldingburritos.com/blog/product-prioritization-techniques/",
-    "titre": "20 prioritization techniques",
+    "title": "20 prioritization techniques",
     "description": "Article proposant 20 méthodes priorisation",
-    "date_added": "2025-08-11",
-    "etiquettes": [
+    "added_date": "2025-08-11",
+    "tags": [
       "product-management",
       "methode"
     ]
   },
   {
     "url": "https://nobsgames.stavros.io/android/",
-    "titre": "nobsgames",
+    "title": "nobsgames",
     "description": "liste des jeux android 'no bullshit'.",
-    "date_ajout": "2025-08-11",
-    "etiquettes": [
+    "added_date": "2025-08-11",
+    "tags": [
       "gaming",
       "android"
     ]
   },
   {
     "url": "https://openrepair.org",
-    "titre": "Openrepair",
+    "title": "Openrepair",
     "description": "Organisation rassemblant des données autours de la réparation.",
-    "date_ajout": "2025-08-12",
-    "etiquettes": [
+    "added_date": "2025-08-12",
+    "tags": [
       "réparation"
     ],
     "category": "Réparation"
   },
   {
     "url": "https://osgameclones.com/",
-    "titre": "Open Source Game Clones",
+    "title": "Open Source Game Clones",
     "description": "Clones open source de Jeux vidéos",
-    "date_ajout": "2025-08-13",
-    "etiquettes": [
+    "added_date": "2025-08-13",
+    "tags": [
       "gaming"
     ],
     "category": "Gaming"
   },
   {
     "url": "https://www.root-me.org",
-    "titre": "Root-me CTF",
+    "title": "Root-me CTF",
     "description": "site proposant des challenges CTF pour s'entrainer à la sécurité offensive.",
-    "date_ajout": "2025-08-15",
-    "etiquettes": [
+    "added_date": "2025-08-15",
+    "tags": [
       "cybersecurité",
       " ctf",
       " hacking"
@@ -53,49 +53,49 @@
   },
   {
     "url": "https://www.radioman33.com/",
-    "titre": "Radioman33",
+    "title": "Radioman33",
     "description": "Site perso d'un passionné de radio anciennes. Plein d'info techniques précieuses.",
-    "date_ajout": "2025-08-15 23:17:07",
-    "etiquettes": [
+    "added_date": "2025-08-15 23:17:07",
+    "tags": [
       "radio",
       "réparation"
     ]
   },
   {
     "url": "https://www.jardinenvie.com/",
-    "titre": "Jardin'enVie",
+    "title": "Jardin'enVie",
     "description": "producteur de semances paysannes anciennes.",
-    "date_ajout": "2025-08-15 23:19:38",
-    "etiquettes": [
+    "added_date": "2025-08-15 23:19:38",
+    "tags": [
       "agriculture"
     ]
   },
   {
     "url": "https://lorembarnak.com/",
-    "titre": "Lorembarnak",
+    "title": "Lorembarnak",
     "description": "Générateur d'insulte en québecois. Indispensable !",
-    "date_ajout": "2025-08-15 23:27:29",
-    "etiquettes": [
+    "added_date": "2025-08-15 23:27:29",
+    "tags": [
       "générateur",
       "drole"
     ]
   },
   {
     "url": "https://wiki.pcet.link/",
-    "titre": "Wiki Herminien",
+    "title": "Wiki Herminien",
     "description": "Un Wiki pour les gens qui débutent dans le numérique",
-    "date_ajout": "2025-08-15 23:29:31",
-    "etiquettes": [
+    "added_date": "2025-08-15 23:29:31",
+    "tags": [
       "wiki",
       "numérique"
     ]
   },
   {
     "url": "https://flatshape.fr/",
-    "titre": "Flatshape",
+    "title": "Flatshape",
     "description": "Collectif(?) fournissant des ressources design open sources (plans, tuto, ...",
-    "date_ajout": "2025-08-15 23:35:42",
-    "etiquettes": [
+    "added_date": "2025-08-15 23:35:42",
+    "tags": [
       "opensource",
       "design",
       "plan",
@@ -104,19 +104,19 @@
   },
   {
     "url": "https://www.portdattache.bzh/apprendre-a-compter-en-breton/",
-    "titre": "Apprendre à compter en breton",
+    "title": "Apprendre à compter en breton",
     "description": "Petit guide pour apprendre à compter en breton",
-    "date_ajout": "2025-08-15 23:37:32",
-    "etiquettes": [
+    "added_date": "2025-08-15 23:37:32",
+    "tags": [
       "breton"
     ]
   },
   {
     "url": "https://openverse.org/",
-    "titre": "Openverse",
+    "title": "Openverse",
     "description": "Banque de ressources images, sonores, libres de droits",
-    "date_ajout": "2025-08-15 23:39:08",
-    "etiquettes": [
+    "added_date": "2025-08-15 23:39:08",
+    "tags": [
       "images",
       "open-source",
       "ressources"
@@ -124,10 +124,10 @@
   },
   {
     "url": "https://bearstech.com/societe/blog/comment-maitriser-sa-dette-technique",
-    "titre": "Comment maitriser sa dette technique?",
+    "title": "Comment maitriser sa dette technique?",
     "description": "Article du toujours intéressant blog de Bearstech sur la dette technique",
-    "date_ajout": "2025-08-20 23:22:18",
-    "etiquettes": [
+    "added_date": "2025-08-20 23:22:18",
+    "tags": [
       "veille",
       "article",
       "dette-technique",
@@ -136,10 +136,10 @@
   },
   {
     "url": "https://github.com/sh3bu/Portswigger_labs",
-    "titre": "Portswigger_labs Writeup",
+    "title": "Portswigger_labs Writeup",
     "description": "Les exercices du lab du PortSwigger's Web Security Academy platform",
-    "date_ajout": "2025-08-25 21:59:31",
-    "etiquettes": [
+    "added_date": "2025-08-25 21:59:31",
+    "tags": [
       "cybersecurité",
       "ressources",
       "tuto",
@@ -148,10 +148,10 @@
   },
   {
     "url": "https://medium.com/@billvunguyen/run-your-own-llm-locally-a-guide-to-self-hosting-1f3fb8f984bb",
-    "titre": "Run Your Own LLM Locally: A Guide to Self-Hosting",
+    "title": "Run Your Own LLM Locally: A Guide to Self-Hosting",
     "description": "Un tuto pour déployer un LLM en local grâce à ollama",
-    "date_ajout": "2025-08-25 23:12:03",
-    "etiquettes": [
+    "added_date": "2025-08-25 23:12:03",
+    "tags": [
       "ia",
       "tuto",
       "veille",
@@ -160,10 +160,10 @@
   },
   {
     "url": "https://15marches.substack.com/p/aux-limites-de-lia",
-    "titre": "article blog 15marches - Aux limites de l'IA",
+    "title": "article blog 15marches - Aux limites de l'IA",
     "description": "Bon article sur quand, utilisez les LLMs (et quand ne pas le faire)",
-    "date_ajout": "2025-09-09 11:13:37",
-    "etiquettes": [
+    "added_date": "2025-09-09 11:13:37",
+    "tags": [
       "IA",
       "AI",
       "LLM",
@@ -176,10 +176,10 @@
   },
   {
     "url": "https://lesvelosmigrateurs.fr/@erwan/des-cintres-multi-positions-pour-le-voyage-et-la-randonnee",
-    "titre": " Des cintres multi-positions pour le voyage et la randonnée",
+    "title": " Des cintres multi-positions pour le voyage et la randonnée",
     "description": "Article sur les différents types de guidons pour rando vélo",
-    "date_ajout": "2025-09-11 21:43:22",
-    "etiquettes": [
+    "added_date": "2025-09-11 21:43:22",
+    "tags": [
       "blog",
       "article",
       "vélo",
@@ -188,10 +188,10 @@
   },
   {
     "url": "https://ourworldindata.org",
-    "titre": "Our world in data",
+    "title": "Our world in data",
     "description": "Comme son nom l'indique une immense base de données de représentations de données sous la forme de graphique, de cartes.",
-    "date_ajout": "2025-09-11 21:53:45",
-    "etiquettes": [
+    "added_date": "2025-09-11 21:53:45",
+    "tags": [
       "data",
       "data-visualization",
       "open-data"
