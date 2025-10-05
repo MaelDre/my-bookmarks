@@ -36,6 +36,8 @@ jobs:
 
       # 5️⃣ Commit & push
       - name: Commit & push le HTML généré
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
