@@ -10,7 +10,8 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       # 1️⃣ Récupérer le dépôt
       - name: Checkout du dépôt
