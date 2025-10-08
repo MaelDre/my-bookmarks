@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Entrée et sortie
 input_file = Path("data/favoris.json")
-output_file = Path("output.html")
+output_file = Path("index.html")
 
 # Lecture du JSON
 with input_file.open(encoding="utf-8") as f:
@@ -24,7 +24,7 @@ html = """
     </style>
     </head>
     <body>
-    <h1>Mes Favoris</h1>
+    <h1>Tous mes Favoris</h1>
     <ul>
 """
 for fav in favoris:
