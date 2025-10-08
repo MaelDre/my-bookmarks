@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-favoris = json.load(open("favoris.json", encoding="utf-8"))
+favoris = json.load(open("/data/favoris.json", encoding="utf-8"))
 html = """
     <!DOCTYPE html>
     <html>
