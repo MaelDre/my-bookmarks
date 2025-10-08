@@ -31,5 +31,5 @@ html += """
 </html>
 """
 
-Path("index.html").write_text(html, encoding="utf-8")
+Path("indexeu.html").write_text(html, encoding="utf-8")
 print("✅ Page HTML générée : indexeu.html")
