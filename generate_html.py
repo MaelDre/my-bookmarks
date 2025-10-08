@@ -31,5 +31,5 @@ html += """
 </html>
 """
 
-Path("output.html").write_text(html, encoding="utf-8")
-print("✅ Page HTML générée : output.html")
+Path("index.html").write_text(html, encoding="utf-8")
+print("✅ Page HTML générée : index.html")
