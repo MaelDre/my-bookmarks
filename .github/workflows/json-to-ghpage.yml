@@ -1,0 +1,50 @@
+name: Build and Deploy JSON → GitHub Pages
+
+on:
+  push:
+    paths:
+      - "data/favoris.json"     # Se déclenche quand le JSON change
+  workflow_dispatch:     # ou lancement manuel
+
+permissions:
+  contents: read
+  pages: write           # permission d’écriture sur GitHub Pages
+  id-token: write        # nécessaire pour le déploiement sécurisé
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1️⃣ Cloner le dépôt
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Installer Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 3️⃣ Générer le fichier index.html
+      - name: Generate index.html from JSON
+        run: |
+          python generate_html.py
+
+      # 4️⃣ Préparer les fichiers à publier (le site statique)
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .  # publie tout le contenu du repo (dont index.html)
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      # 5️⃣ Déployer sur GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
