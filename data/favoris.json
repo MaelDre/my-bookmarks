@@ -232,5 +232,14 @@
     "tags": [
       "veille"
     ]
+  },
+  {
+    "url": "https://martinfowler.com",
+    "title": "martinfowler.com",
+    "description": "desc",
+    "added_date": "2025-02-28",
+    "tags": [
+      "veille"
+    ]
   }
 ]
