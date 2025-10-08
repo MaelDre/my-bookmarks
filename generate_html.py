@@ -1,7 +1,16 @@
 import json
 from pathlib import Path
 
-favoris = json.load(open("data/favoris.json", encoding="utf-8"))
+
+# Entrée et sortie
+input_file = Path("data/favoris.json")
+output_file = Path("outpute.html")
+
+# Lecture du JSON
+with input_file.open(encoding="utf-8") as f:
+    favoris = json.load(f)
+
+#favoris = json.load(open("data/favoris.json", encoding="utf-8"))
 html = """
     <!DOCTYPE html>
     <html>
@@ -31,5 +40,10 @@ html += """
 </html>
 """
 
-Path("indexeu.html").write_text(html, encoding="utf-8")
+
+# Écriture du fichier HTML
+with output_file.open("w", encoding="utf-8") as f:
+    f.write(html_content)
+    
+# Pth("indexeu.html").write_text(html, encoding="utf-8")
 print("✅ Page HTML générée : indexeu.html")
