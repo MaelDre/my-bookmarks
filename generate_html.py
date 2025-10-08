@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Entrée et sortie
 input_file = Path("data/favoris.json")
-output_file = Path("index.html")
+output_file = Path("indeex.html")
 
 # Lecture du JSON
 with input_file.open(encoding="utf-8") as f:
