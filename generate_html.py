@@ -43,7 +43,7 @@ html += """
 
 # Écriture du fichier HTML
 with output_file.open("w", encoding="utf-8") as f:
-    f.write(html_content)
-    
+    f.write(html)
+
 # Pth("indexeu.html").write_text(html, encoding="utf-8")
 print("✅ Page HTML générée : indexeu.html")
