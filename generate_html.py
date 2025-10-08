@@ -19,7 +19,7 @@ html = """
     <ul>
 """
 for fav in favoris:
-    title = fav["titre"] or fav["url"]
+    title = fav["title"] or fav["url"]
     html += f'<li><a href="{fav["url"]}" target="_blank">{title}</a>'
     if fav["description"]:
         html += f" – {fav['description']}"
