@@ -259,5 +259,23 @@
     "tags": [
       "veille"
     ]
+  },
+  {
+    "url": "https://twitchard.github.io/posts/2022-08-26-metrics-schmetrics.html",
+    "title": "Be good-argument-driven, not data-driven - Richard Marmorstein",
+    "description": "La data valide un argument, mais n'en est pas un.",
+    "added_date": "2024-12-23",
+    "tags": [
+      "veille"
+    ]
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=LTtqP9175WQ",
+    "title": "L'architecture, pour tout le monde, partout, tout le temps (Cyrille Martraire) #MiXiT2025",
+    "description": "",
+    "added_date": "2025-06-11",
+    "tags": [
+      "veille"
+    ]
   }
 ]
