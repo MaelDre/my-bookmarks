@@ -1,7 +1,9 @@
-name: Build and Deploy JSON → GitHub Pages
+name: Build and Deploy JSON -> GitHub Pages
 
 on:
   push:
+    branches:
+        - main
     paths:
       - "data/favoris.json"     # Se déclenche quand le JSON change
   workflow_dispatch:     # ou lancement manuel
