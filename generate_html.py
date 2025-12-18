@@ -27,11 +27,18 @@ html = """
     <h1>Tous mes Favoris</h1>
     <ul>
 """
+
 for fav in favoris:
     title = fav["title"] or fav["url"]
     html += f'<li><a href="{fav["url"]}" target="_blank">{title}</a>'
     if fav["description"]:
         html += f" – {fav['description']}"
+    # Affichage des tags s'ils existent
+    tags = fav.get("tags", [])
+    if tags:
+        html += f"<br><span style='color: #555; font-size: 0.95em;'>Tags : "
+        html += ', '.join(f"<span style='background:#eee; border-radius:4px; padding:2px 6px; margin-right:2px;'>{tag.strip()}</span>" for tag in tags)
+        html += "</span>"
     html += "</li>\n"
 
 html += """
@@ -47,3 +54,4 @@ with output_file.open("w", encoding="utf-8") as f:
 
 # Pth("indexeu.html").write_text(html, encoding="utf-8")
 print("✅ Page HTML générée : indexeu.html")
+
