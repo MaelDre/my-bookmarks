@@ -371,5 +371,25 @@
     ],
     "titre": "",
     "etiquettes": []
+  },
+  {
+    "url": "https://adnauseam.io/",
+    "title": "AdNauseam - Clicking Ads So You Don't Have To",
+    "description": "Extension browser qui clique silencieusement sur toutes les publicités bloquées, afin de brouiller les données récoltées",
+    "added_date": "2025-10-13",
+    "tags": [
+      "savelink"
+    ]
+  },
+  {
+    "url": "https://youtu.be/7FK2Tk9GHNU?si=0jbDvFSNFfWYfQNe",
+    "title": "Comment manipuler une IA ? @underscore I ARTE",
+    "description": "",
+    "added_date": "2025-11-18",
+    "tags": [
+      "IA",
+      "savelink",
+      "video"
+    ]
   }
 ]
