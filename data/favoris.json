@@ -391,5 +391,16 @@
       "savelink",
       "video"
     ]
+  },
+  {
+    "url": "https://kravensecurity.com/blog/",
+    "title": "Blog - Kraven Security",
+    "description": "Blog CTI",
+    "added_date": "2026-01-06",
+    "tags": [
+      "blog",
+      "cybersecurity",
+      "savelink"
+    ]
   }
 ]
