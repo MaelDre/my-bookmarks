@@ -412,5 +412,47 @@
       "cybersecurity",
       "savelink"
     ]
+  },
+  {
+    "url": "https://www.uxtweak.com/product-discovery/frameworks/",
+    "title": "Product Discovery Frameworks",
+    "description": "quelques exemples de cadres pour la recherche produit",
+    "added_date": null,
+    "tags": [
+      "product-management",
+      "savelink"
+    ]
+  },
+  {
+    "url": "https://blog.virustotal.com/2026/02/from-automation-to-infection-how.html",
+    "title": "From Automation to Infection: How OpenClaw AI Agent Skills Are Being Weaponized",
+    "description": "Comment les Skills OpenClaw sont utilisés comme vulnérabilités",
+    "added_date": null,
+    "tags": [
+      "cybersecurity",
+      "savelink"
+    ]
+  },
+  {
+    "url": "https://cyber.gouv.fr/enjeux-technologiques/intelligence-artificielle/etude-de-marche-lia-au-service-de-la-detection-et-de-la-reponse-a-incident/",
+    "title": "Etude de marché : l’IA au service de la détection et de la réponse à incident (France et international)",
+    "description": "Etude 2026 de l'ANSSI sur les enjeux de l'IA pour la détection et réponse à incident de cybersécurité",
+    "added_date": null,
+    "tags": [
+      "IA",
+      "cybersecurity",
+      "savelink"
+    ]
+  },
+  {
+    "url": "https://github.com/ottosulin/awesome-ai-security",
+    "title": "GitHub - ottosulin/awesome-ai-security: A collection of awesome resources related AI security",
+    "description": "List of resources related to AI & cybersecurity",
+    "added_date": null,
+    "tags": [
+      "IA",
+      "cybersecurity",
+      "savelink"
+    ]
   }
 ]
