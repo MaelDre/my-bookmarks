@@ -454,5 +454,35 @@
       "cybersecurity",
       "savelink"
     ]
+  },
+  {
+    "url": "https://github.com/vinta/awesome-python",
+    "title": "GitHub - vinta/awesome-python: An opinionated list of awesome Python frameworks, libraries, software and resources.",
+    "description": "",
+    "added_date": null,
+    "tags": [
+      "developpement",
+      "savelink"
+    ]
+  },
+  {
+    "url": "https://mollyg.substack.com/p/six-rules-for-company-goal-setting",
+    "title": "Six Rules for Designing Company Goals",
+    "description": "",
+    "added_date": null,
+    "tags": [
+      "organisation",
+      "savelink"
+    ]
+  },
+  {
+    "url": "https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+    "title": "AI Doesn’t Reduce Work—It Intensifies It",
+    "description": "",
+    "added_date": null,
+    "tags": [
+      "IA",
+      "savelink"
+    ]
   }
 ]
