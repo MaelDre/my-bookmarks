@@ -494,5 +494,14 @@
       "product-management",
       "savelink"
     ]
+  },
+  {
+    "url": "https://marcgg.com/blog/2024/11/20/standup/",
+    "title": "The way I run standup meetings",
+    "description": "Un rappel sur une (bonne) façon de mener un standup/daily meeting",
+    "added_date": null,
+    "tags": [
+      "savelink"
+    ]
   }
 ]
