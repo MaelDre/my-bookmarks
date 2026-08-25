@@ -602,5 +602,15 @@
     "tags": [
       "savelink"
     ]
+  },
+  {
+    "url": "https://github.com/etalab-ia/OpenGateLLM",
+    "title": "GitHub - etalab-ia/OpenGateLLM: An open-source, unified interface for running and managing self-hosted LLMs.",
+    "description": "Alternative à LiteLLM, opensource et développé par Etalab",
+    "added_date": null,
+    "tags": [
+      "IA",
+      "savelink"
+    ]
   }
 ]
